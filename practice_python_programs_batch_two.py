@@ -35,3 +35,12 @@ num_1 = int(input("Enter a number: "))
 num_2 = int(input("Enter a number: "))
 
 print(num_1 % num_2)
+
+#Prog06
+result = float(input("Enter number 1: "))
+
+for i in range(2, 11):
+    num = float(input(f"Enter number {i}: "))
+    result -= num
+
+print("The final result is:", result)
