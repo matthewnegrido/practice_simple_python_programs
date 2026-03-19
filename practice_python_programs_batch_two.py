@@ -29,3 +29,9 @@ num_1 = int(input("Enter a number: "))
 num_2 = int(input("Enter a number: "))
 
 print(num_1 // num_2)
+
+#Prog05
+num_1 = int(input("Enter a number: "))
+num_2 = int(input("Enter a number: "))
+
+print(num_1 % num_2)
