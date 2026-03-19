@@ -26,3 +26,9 @@ num_2 = float(input("Enter a number: "))
 
 print(num_1 + num_2)
 
+#Prog04
+num_1 = float(input("Enter a number: "))
+num_2 = float(input("Enter a number: "))
+
+print(num_1 * num_2)
+
