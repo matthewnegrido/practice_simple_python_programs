@@ -19,3 +19,10 @@ elif num_1 < num_2:
     print(num_2)
 else:
     print("Both numbers are equal!")
+
+#Prog03
+num_1 = float(input("Enter a number: "))
+num_2 = float(input("Enter a number: "))
+
+print(num_1 + num_2)
+
