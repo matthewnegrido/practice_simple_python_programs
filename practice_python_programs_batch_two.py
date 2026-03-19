@@ -67,6 +67,17 @@ while i <= 100:
 
 #Prog09
 for i in range(101):
-    # If the number is NOT divisible by 5, it won't end in 0 or 5
     if i % 5 != 0:
         print(i)
+
+#Prog10
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+start = min(num1, num2)
+end = max(num1, num2)
+
+print(f"Printing numbers between {start} and {end}:")
+
+for i in range(start, end + 1):
+    print(i)
