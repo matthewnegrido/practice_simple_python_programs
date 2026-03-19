@@ -62,3 +62,7 @@ for i in range(10):
         odd_count += 1
 
 print("Total odd numbers:", odd_count)
+
+#Prog09
+for i in range(0, 101, 2):
+    print(i)
