@@ -64,3 +64,9 @@ while i <= 100:
         print(i)
 
     i += 1
+
+#Prog09
+for i in range(101):
+    # If the number is NOT divisible by 5, it won't end in 0 or 5
+    if i % 5 != 0:
+        print(i)
