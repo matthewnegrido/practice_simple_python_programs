@@ -55,3 +55,12 @@ for i in range(10):
         even_count += 1
 
 print("Total even numbers:", even_count)
+
+#Prog08
+i = 0
+
+while i <= 100:
+    if i % 2 != 0:
+        print(i)
+
+    i += 1
