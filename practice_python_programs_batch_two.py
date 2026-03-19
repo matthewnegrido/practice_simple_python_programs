@@ -44,3 +44,14 @@ for i in range(2, 11):
     result -= num
 
 print("The final result is:", result)
+
+#Prog07
+even_count = 0
+
+for i in range(10):
+    num = int(input(f"Enter number {i+1}: "))
+    # If remainder is 0 when divided by 2, it's even
+    if num % 2 == 0:
+        even_count += 1
+
+print("Total even numbers:", even_count)
