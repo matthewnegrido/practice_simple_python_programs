@@ -44,3 +44,11 @@ num_2 = float(input("Enter a number: "))
 
 print(num_1 ** num_2)
 
+#Prog07
+total = 0
+
+for i in range(10):
+    num = float(input("Enter a number: "))
+    total += num
+
+print("The sum is:", total)
